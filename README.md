@@ -1,6 +1,6 @@
 # Akka UDP & TCP Demo
 
-A simple UDP and TCP demo written in Scala, that listens to messages and simply echos them back.
+A simple UDP and TCP demo written in Scala, that listens to messages and simply echoes them back.
 
 Requires [JDK 11](https://adoptopenjdk.net/) and [sbt 1.3+](https://www.scala-sbt.org/).
 
