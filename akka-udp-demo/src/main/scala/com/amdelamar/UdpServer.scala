@@ -24,7 +24,7 @@ object UdpServer {
 
 class UdpServer(host: String = "localhost", port: Int = 0) extends Actor {
   import context.system
-  val log = Logging(context.system, this)
+  val log = Logging(context.system, this.getClass)
 
   override def preStart(): Unit = {
     log.info(s"Starting UDP Server on $host:$port")
